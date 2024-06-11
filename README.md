@@ -7,7 +7,6 @@
 
 - [IBM Cloud Application Developer](https://www.credly.com/badges/666607dc-15e2-4458-b547-be39b4761ff0)
 
-<h2> 🤳 Connect with me:</h2>
 
 
 
