@@ -1,7 +1,17 @@
-## Hi there 👋
+<h1>Hey, I'm Mujeeb! </h1>
+
+<h2> 👨‍💻 Machine Learning, Quant & AI Projects (and more):</h2>
+
+
+<h2> 📄 Certifications:</h2>
+
+- [IBM Cloud Application Developer](https://www.credly.com/badges/666607dc-15e2-4458-b547-be39b4761ff0)
+
+<h2> 🤳 Connect with me:</h2>
+
+
 
 <!--
-**lassoregression/lassoregression** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
