@@ -1,7 +1,8 @@
-<h1>Hey, I'm Mujeeb! </h1>
+<h1>Hello World! </h1>
 
 <h2> 👨‍💻 Machine Learning, Quant & AI Projects (and more):</h2>
 
+- [Algorithmic Trading System ft. GUI](https://github.com/lassoregression/strat-backtest)
 
 <h2> 📄 Certifications:</h2>
 
