@@ -3,6 +3,7 @@
 <h2> 👨‍💻 Machine Learning, Quant & AI Projects (and more):</h2>
 
 - [Algorithmic Trading System ft. GUI](https://github.com/lassoregression/strat-backtest)
+- [Forecasting U.S. Delinquency Rates ft. Economic Data](https://github.com/lassoregression/us-delinquency-forecast)
 
 <h2> 📄 Certifications:</h2>
 
