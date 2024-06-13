@@ -4,6 +4,7 @@
 
 - [Algorithmic Trading System ft. GUI](https://github.com/lassoregression/strat-backtest)
 - [Forecasting U.S. Delinquency Rates ft. Economic Data](https://github.com/lassoregression/us-delinquency-forecast)
+- [Measuring Distance to Default ft. Market Value Proxy Method & Volatility Restricted Method](https://github.com/lassoregression/dtd)
 
 <h2> 📄 Certifications:</h2>
 
