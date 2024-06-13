@@ -3,7 +3,7 @@
 <h2> 👨‍💻 Machine Learning, Quant & AI Projects (and more):</h2>
 
 - [Measuring Distance to Default (ft. Market Value Proxy Method & Volatility Restricted Method)](https://github.com/lassoregression/dtd)
-- [Mortgage-Backed Security Analysis (ft. The Vasicek model)](https://github.com/lassoregression/mbs-val)
+- [Mortgage-Backed Security Analysis (ft. The Vasicek Model)](https://github.com/lassoregression/mbs-val)
 - [Algorithmic Trading System (ft. GUI)](https://github.com/lassoregression/strat-backtest)
 - [Forecasting U.S. Delinquency Rates (ft. Economic Data)](https://github.com/lassoregression/us-delinquency-forecast)
 
