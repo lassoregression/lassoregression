@@ -1,6 +1,9 @@
 <h1>Hello World! </h1>
 
-<h2> 👨‍💻 Machine Learning, Quant & AI Projects (and more):</h2>
+👨🏽‍🎓 Pursuing a MS in Quantitative Finance @ Fordham University  
+📈 Currently learning about Machine Learning, Algorithms and Trading
+
+<h2> 👨🏽‍💻 Projects I've done so far:</h2>
 
 - [Measuring Distance to Default (ft. Market Value Proxy Method & Volatility Restricted Method)](https://github.com/lassoregression/dtd)
 - [Mortgage-Backed Security Analysis (ft. The Vasicek Model)](https://github.com/lassoregression/mbs-val)
