@@ -1,7 +1,7 @@
 <h1>Hello World! </h1>
 
 👨🏽‍🎓 Pursuing a MS in Quantitative Finance @ Fordham University  
-📈 Currently learning about Machine Learning, Algorithms and Trading
+🧮 Currently learning about Machine Learning & Algorithms
 
 <h2> 👨🏽‍💻 Projects I've done so far:</h2>
 
