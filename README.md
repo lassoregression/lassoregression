@@ -12,7 +12,8 @@
 
 <h2> 📄 Certifications:</h2>
 
-- [IBM Cloud Application Developer](https://www.credly.com/badges/666607dc-15e2-4458-b547-be39b4761ff0)
+- [IBM Cloud Application Developer](https://www.credly.com/badges/666607dc-15e2-4458-b547-be39b4761ff0)  
+
 
 
 🔥🌿💧 Add me on Pokémon GO: 2986 8281 4279
