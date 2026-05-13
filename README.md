@@ -1,4 +1,7 @@
-AI & Analytics Specialist @ SAP. M.S. Quantitative Finance, Fordham University.
+# Hello World
+
+AI & Analytics Specialist @ SAP
+M.S. Quantitative Finance, Fordham University
 
 Building data products, LLM applications, and agents for enterprise and financial workflows. I'm using claude code now. It's pretty good because it automates a lot of the boring stuff. But you can still use your brain.
 
@@ -9,13 +12,11 @@ Building data products, LLM applications, and agents for enterprise and financia
 ### averroes
 [GitHub](https://github.com/lassoregression/averroes-public) &nbsp;•&nbsp; [Live](https://averroes-llm.vercel.app)
 
-Prompting is the act of translating intent into something a language model can execute. Small differences in phrasing can materially change the quality of an answer, but most systems provide no feedback on this. The model responds, and the user is left guessing whether the issue was the prompt or the model.
+Prompting is the act of translating intent into something a language model can execute. Small differences in phrasing can materially change the quality of an answer, but most systems provide no feedback on this. The model responds, and the user is left guessing whether the issue was the prompt or the model. Over time, weak outputs get attributed to the model rather than the input, and the feedback loop that would normally build skill never forms.
 
-Over time, this breaks the feedback loop. Weak outputs are attributed to the model, not the input. Prompt quality becomes dependent on prior experience rather than something users can develop in context.
+Averroes introduces a second model, the *Commentator*, that observes each exchange as a read-only participant. After every interaction it diagnoses the prompt, identifies what was underspecified, and produces a refined version without any action from the user. A 0 to 1 workshop mode goes further: before any primary model call, the Commentator runs a short clarifying dialogue and returns a precise prompt the user reviews and sends.
 
-Averroes addresses this by introducing a second model, the *Commentator*, that observes each exchange as a read-only participant. After every interaction, without any action from the user, it diagnoses the prompt, identifies what was underspecified, and produces a refined version. A structured 0 to 1 workshop mode inverts this: before any primary model call, the Commentator takes over the interaction, runs a short clarifying dialogue, and returns a precise prompt the user can review and send. Once the workshop completes, the primary model resumes normally.
-
-The separation is strict. The Commentator reads the full conversation but cannot write to it, and the primary model is unaware of its existence. An observer with no stake in the response has no incentive to rationalize a weak one.
+The result is prompt-level feedback that is specific to the exchange in front of you and comes from something with no stake in making the answer look good.
 
 ---
 
@@ -23,13 +24,11 @@ The separation is strict. The Commentator reads the full conversation but cannot
 
 Investment research is not limited by access to information. It is limited by the lack of a clean link between what an investor holds, what new information exists, and whether that information changes the original thesis.
 
-General-purpose language models fail here in predictable ways. They operate without knowledge of positions, produce claims without grounding, hallucinate citations, and offer recommendations without accountability. They have no memory of prior commitments or how incoming evidence relates to them.
+General-purpose language models fail here in predictable ways. They operate without knowledge of positions, produce claims without grounding, hallucinate citations, and offer recommendations without accountability.
 
-Geist is a read-only intelligence layer built around these constraints. It connects to an investor's accounts, constructs a unified view of positions across brokerages, exchanges, and self-custody wallets, and indexes relevant public information (filings, transcripts, news, prediction-market state) into a structured, citable corpus. Every output is an evidence card: each claim bound to a primary source, with a mandatory citation, timestamp, and relevance tie-in to the user's holdings. Claims that cannot be cited are dropped before rendering.
+Geist is a read-only intelligence layer that connects to an investor's accounts across brokerages, exchanges, and self-custody wallets, and indexes relevant public information (filings, transcripts, news, prediction-market state) into a citable corpus. It can surface your concentration by sector, run your current positions through historical stress tests, track whether a thesis you hold is still supported as new filings arrive, or return the market-implied probability on a macro event with the source contract cited. Every claim is bound to a primary source or it is not rendered.
 
-Hard boundaries are enforced at the synthesis layer in code, not system-prompt policy: no forecasts, no recommendations, no composite scoring, no ungrounded claims.
-
-Workspaces let users commit investment theses as explicit assumptions and risks. The system continuously evaluates incoming evidence against these commitments and surfaces when the underlying argument shifts. For institutional users, every computed value is traceable to a versioned methodology entry, keeping scenario analyses reproducible and defensible.
+Hard limits at the synthesis layer: no forecasts, no recommendations, no composite scores, no ungrounded claims.
 
 ---
 
